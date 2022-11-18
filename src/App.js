@@ -2,6 +2,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
+import Services from "./Components/Services";
 
 
 
@@ -10,8 +11,7 @@ import "./styles/header.scss"
 import "./styles/home.scss"
 import "./styles/footer.scss"
 import "./styles/contact.scss"
-import Services from "./Components/Services";
-
+import "./styles/mediaquery.scss"
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
 <Route path="/" element={<Home/>}/>
 <Route path="/home" element={<Home/>}/>
 <Route path="/contact" element={<Contact/>}/>
-<Route path="/services" element={<Services/>}></Route>
+<Route path="/services" element={<Services/>}/>
   </Routes>
 
   </BrowserRouter>
