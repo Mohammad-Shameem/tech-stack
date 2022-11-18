@@ -9,7 +9,7 @@ const Services = () => {
     return (
         <div className='services'>
       
-      <Carousel infiniteLoop >
+      <Carousel infiniteLoop autoPlay >
         <div>
             <img  src={img1} alt="item1" />
             <p className='legend'>MEARN stack</p>
