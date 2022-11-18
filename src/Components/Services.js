@@ -4,12 +4,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import img1 from "../assets/picture-3.jpg"
 import img2 from "../assets/picture-4.jpg"
+import Footer from './Footer';
 
 const Services = () => {
     return (
-        <div className='services'>
+        <>
+        <div className='services' >
       
-      <Carousel infiniteLoop autoPlay >
+      <Carousel infiniteLoop autoPlay showArrows={false} showStatus={false} interval={1000} showThumbs={false} >
         <div>
             <img  src={img1} alt="item1" />
             <p className='legend'>MEARN stack</p>
@@ -19,8 +21,10 @@ const Services = () => {
             <img  src={img2} alt="item2" />
             <p className='legend'>24/7 Support</p>
         </div>
-        </Carousel>      
+        </Carousel>    
         </div>
+        <Footer></Footer>  
+        </>
     );
 };
 
