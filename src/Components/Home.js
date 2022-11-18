@@ -6,7 +6,7 @@ import {AiFillGoogleCircle,
     AiFillInstagram} from "react-icons/ai"
 const Home = () => {
     return (
-       <>
+       <div className='home-main'>
         <div className='home' id='home'>
             <section>
                 <h1>TechStack</h1>
@@ -67,7 +67,7 @@ const Home = () => {
             </article>
             </div>
         </div>
-       </>
+       </div>
     );
 };
 
