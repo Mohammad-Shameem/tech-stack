@@ -4,9 +4,10 @@ import {AiFillGoogleCircle,
     AiFillAmazonCircle,
     AiFillYoutube,
     AiFillInstagram} from "react-icons/ai"
+import Footer from './Footer';
 const Home = () => {
     return (
-       <div className='home-main'>
+      <> <div className='home-main'>
         <div className='home' id='home'>
             <section>
                 <h1>TechStack</h1>
@@ -68,6 +69,8 @@ const Home = () => {
             </div>
         </div>
        </div>
+       <Footer></Footer>
+       </>
     );
 };
 
