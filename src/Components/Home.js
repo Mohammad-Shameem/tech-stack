@@ -4,7 +4,6 @@ import {AiFillGoogleCircle,
     AiFillAmazonCircle,
     AiFillYoutube,
     AiFillInstagram} from "react-icons/ai"
-import Footer from './Footer';
 const Home = () => {
     return (
      <>
@@ -69,7 +68,6 @@ const Home = () => {
             </div>
         </div>
        
-       <Footer></Footer>
        </>
     );
 };

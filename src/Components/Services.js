@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import img1 from "../assets/picture-3.jpg"
 import img2 from "../assets/picture-4.jpg"
-import Footer from './Footer';
+
 
 const Services = () => {
     return (
@@ -23,7 +23,7 @@ const Services = () => {
         </div>
         </Carousel>    
         </div>
-        <Footer></Footer>  
+         
         </>
     );
 };

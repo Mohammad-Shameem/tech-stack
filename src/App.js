@@ -12,6 +12,7 @@ import "./styles/home.scss"
 import "./styles/footer.scss"
 import "./styles/contact.scss"
 import "./styles/mediaquery.scss"
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
 <Route path="/contact" element={<Contact/>}/>
 <Route path="/services" element={<Services/>}/>
   </Routes>
-
+<Footer></Footer>
   </BrowserRouter>
   );
 }
